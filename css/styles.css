@@ -5,7 +5,7 @@ body {
     margin: 0;    /*Set start reading 0,0*/
     padding: 0;
 
-    background-color: #ffffcc;;  /*Set background color*/
+    background-color: white;  /*Set background color*/
 
     display: flex;  /*Set centered elements*/
     align-items: center;
@@ -24,7 +24,7 @@ body {
     padding: 0;  
 }
 
-                  /**************************HOME*******************************/
+        /**************************HOME*******************************/
                   #introSet{
                     height: 25em;
                     width: 52em;
@@ -53,6 +53,134 @@ body {
                     align-items: center;
                     justify-content: center;
                     font-style: italic;
+                    font-size: 1em;
+                    text-size-adjust: justify;
+                    color:black;
+                    text-align: justify;
+                }
+
+                
+        /*******************CONTACT*********************/
+                #contact{
+                    height: 25em;
+                    width: 52em;
+                    /* background-color: blue;  */
+                    border-radius: 1em;
+                    display: flex;  
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                #address{
+                    height: 20em;
+                    width: 26em;
+                    border-radius: 1em;
+                    display: flex;  
+                    align-items: center;
+                    justify-content: center;
+                }
+                #contactWords{
+                    height: 16em;
+                    width: 22em;
+                    padding: 2em;  
+                    border-radius: 1em;
+                    display: flex; 
+                    align-items: center;
+                    justify-content: center;
+                    font-style: italic;
+                    font-weight: bold;
+                    font-size: 2em;
+                    text-size-adjust: justify;
+                    color:black;
+                    text-align: justify;
+                }
+
+                #map{
+                    height: 20em;
+                    width: 26em;
+                    border-radius: 1em;
+                    display: flex;  
+                    align-items: center;
+                    justify-content: center;
+                }
+                #mapG{
+                    height: 20em;
+                    width: 26em; 
+                    border-radius: 1em;
+                }
+        /*********************MENU*******************/
+                #menuFood{
+                    height: 25em;
+                    width: 60em;
+                    /* background-color: blue;  */
+                    border-radius: 1em;
+                    display: flex;  /*Set centered elements*/
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+
+                }
+                .options{
+                    height: 20em;
+                    width: 58em;
+                    display: flex;  /*Set centered elements*/
+                    align-items: center;
+                    justify-content: center;
+
+                } 
+                #menuFood{
+                    height: 50em;
+                    width: 20em;
+                    /* background-color: yellow;  */
+                    border-radius: 1em;
+                    display: flex;  /*Set centered elements*/
+                    align-items: center;
+                    justify-content: center;
+                }
+                #daily{
+                    height: 21em;
+                    width: 16em;
+                    /* background-color: red;  */
+                    border-radius: 1em;
+                    display: flex;  /*Set centered elements*/
+                    align-items: center;
+                    justify-content: center;
+                    padding: 2em;
+                    font-style: italic;
+                    font-weight: bold;
+                    font-size: 1em;
+                    text-size-adjust: justify;
+                    color:black;
+                    text-align: justify;
+                }
+                #takeAway{
+                    height: 21em;
+                    width: 16em;
+                    /* background-color: yellow;  */
+                    border-radius: 1em;
+                    display: flex;  /*Set centered elements*/
+                    align-items: center;
+                    justify-content: center;
+                    padding: 2em;
+                    font-style: italic;
+                    font-weight: bold;
+                    font-size: 1em;
+                    text-size-adjust: justify;
+                    color:black;
+                    text-align: justify;
+
+                }
+                #delivery{
+                    height: 21em;
+                    width: 16em;
+                    /* background-color: green;  */
+                    border-radius: 1em;
+                    display: flex;  /*Set centered elements*/
+                    align-items: center;
+                    justify-content: center;
+                    padding: 2em;
+                    font-style: italic;
+                    font-weight: bold;
                     font-size: 1em;
                     text-size-adjust: justify;
                     color:black;
