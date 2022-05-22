@@ -1,0 +1,17 @@
+body {
+
+    height: 100vh; /*Set webpage maximum height*/
+
+    margin: 0;    /*Set start reading 0,0*/
+    padding: 0;
+
+    background-color: gray;  /*Set background color*/
+
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+}
+
+/*ELEMENTS*/
+/*CLASSES*/
+/*ID*/
