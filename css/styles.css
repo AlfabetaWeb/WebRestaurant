@@ -5,7 +5,7 @@ body {
     margin: 0;    /*Set start reading 0,0*/
     padding: 0;
 
-    background-color: gray;  /*Set background color*/
+    background-color: #ffffcc;;  /*Set background color*/
 
     display: flex;  /*Set centered elements*/
     align-items: center;
@@ -13,5 +13,51 @@ body {
 }
 
 /*ELEMENTS*/
+#home{
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#navbar{
+    margin: 0;    /*Set start reading 0,0*/
+    padding: 0;  
+}
+
+                  /**************************HOME*******************************/
+                  #introSet{
+                    height: 25em;
+                    width: 52em;
+                    /* background-color: blue;  */
+                    border-radius: 1em;
+                    display: flex;  /*Set centered elements*/
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                #introFood{
+                    height: 20em;
+                    width: 26em;
+                    /* background-color: yellow;  */
+                    border-radius: 1em;
+                    display: flex;  /*Set centered elements*/
+                    align-items: center;
+                    justify-content: center;
+                }
+                #introWords{
+                    height: 16em;
+                    width: 22em;
+                    padding: 2em;  
+                    border-radius: 1em;
+                    display: flex; 
+                    align-items: center;
+                    justify-content: center;
+                    font-style: italic;
+                    font-size: 1em;
+                    text-size-adjust: justify;
+                    color:black;
+                    text-align: justify;
+                }
+
 /*CLASSES*/
 /*ID*/

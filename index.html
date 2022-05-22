@@ -15,33 +15,48 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet"/> <!--Link CSS file-->
 </head>
 <body>
+    <div class="container-fluid" id="home">      
     <!----------BARRA DE NAVEGACIÓN---------->    
-    <div class="">   
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">Hidden brand</a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
-                </ul>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+        <div class="navbarTop">   
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">Eat and feed</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Coming soon...</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+        </div>
+  <!----------CONTENIDO---------->  
+        <div id="introSet">
+            <div id="introFood">
+                <img src="img/SharedTable.png"/>
             </div>
+            <div>
+                <p id="introWords">
+                    Enjoy with us our healthy combinations of traditional homemade food and urban etnical flavours. 
+                    Bussiness lunch, family dinner, couple date, fun with friends or evening a moment of quiet on your own.
+                    Share our tables or take-aways                    
+                </p>
             </div>
-        </nav>
+        </div>
     </div>
     <script src="js/main.js"></script> <!--Link JS file-->     
 </body>
