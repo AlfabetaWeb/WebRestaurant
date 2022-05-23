@@ -1,6 +1,6 @@
-<h1 align="center">Restaurante</h1>
+<h1 align="center">Restaurant</h1>
 
-<h4 align="center">Página web de una hamburguesería ficticia en valencia.<h4>
+<h4 align="center">Restaurant Website Project<h4>
 
 ---
 
