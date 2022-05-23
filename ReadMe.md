@@ -25,6 +25,5 @@ Project created for the Bootcamp - Full Stack Developer at GeeksHubs Academy: Cr
 ## Features:
 
 * Responsive: The Nav Bar collapses to a scrolldown when resizing the web and the alined pictures nest into each other
-* Icono que redirecciona a pagina principal.
 * Uses Bootstrap.
 * Uses HTML and CSS.
