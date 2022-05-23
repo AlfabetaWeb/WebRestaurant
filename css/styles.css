@@ -136,14 +136,13 @@ body {
                 }
 
                 #colDaily{
-                    height: 21em;
-                    width: 16em;
-                    /* background-color: red;  */
+                    height: 50%;
+                    width: 33%;
                     border-radius: 1em;
-                    display: flex;  /*Set centered elements*/
+                    display: flex; 
                     align-items: center;
                     justify-content: center;
-                    padding: 2em;
+                    padding: 1em;
                     font-style: italic;
                     font-weight: bold;
                     font-size: 1em;
@@ -152,11 +151,10 @@ body {
                     text-align: justify;
                 }
                 #colTakeAway{
-                    height: 21em;
-                    width: 16em;
-                    /* background-color: yellow;  */
+                    height: 50%;
+                    width: 33%;
                     border-radius: 1em;
-                    display: flex;  /*Set centered elements*/
+                    display: flex;  
                     align-items: center;
                     justify-content: center;
                     padding: 2em;
@@ -169,14 +167,13 @@ body {
 
                 }
                 #colDelivery{
-                    height: 21em;
-                    width: 16em;
-                    /* background-color: green;  */
+                    height: 50%;
+                    width: 30%;
                     border-radius: 1em;
-                    display: flex;  /*Set centered elements*/
+                    display: flex;  
                     align-items: center;
                     justify-content: center;
-                    padding: 2em;
+                    padding: 1em;
                     font-style: italic;
                     font-weight: bold;
                     font-size: 1em;
